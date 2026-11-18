@@ -1,0 +1,77 @@
+@font-face {
+  font-family: apple;
+  src: url(./sf-pro-text_semibold.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  color: #313132;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px;
+  background-color: #f5f5f8;
+  font-weight: 100px;
+  font-family: apple;
+}
+#para {
+  font-family: apple;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #222224;
+  font-weight: 100px;
+}
+#center {
+  text-align: center;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f8;
+  background-image: url(https://www.apple.com/in/homepage/images/iphone-duo/hero_iphone_duo_announce__fh4u8yzndpe2_mediumtall_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+  background-size: 1400px;
+  font-family: apple;
+}
+#center h3 {
+  font-size: 60px;
+  font-weight: 800;
+}
+#center h4 {
+  font-size: 35px;
+  font-weight: 900;
+}
+#link button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: apple;
+}
+#b1 {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+#b2 {
+  color: royalblue;
+  border-color: royalblue;
+}
